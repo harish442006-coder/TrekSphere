@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrekSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo-container">
+            <img src="./images/logo1.png" loading="lazy" id="logo">
+            <h1 id="website-name">TrekSphere</h1>
+        </div>
+        <div class="nav-bar">
+            <div class="home">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="about">
+                <a href="aboutus.html">About Us</a>
+            </div>
+            <div class="contact">
+                <a href="contactus.html">Contact Us</a>
+            </div>
+        </div>
+        <div class="hamburger">
+            <div class="ham"></div>
+            <div class="ham"></div>
+            <div class="ham"></div>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-text" placeholder="Search location  🔍">
+            <ul class="search-suggestion">
+            </ul>
+            <button id="search-btn" onclick="search()">Search</button>
+            <button id="clear-btn" onclick="clearSearch()">Clear</button>
+        </div>
+        
+    </div>
+    
+    <div class="main-container">
+        <aside class="side-bar">
+            <img src="./images/twitter.png" class="social-side">
+            <img src="./images/insta.png" class="social-side">
+            <img src="./images/whatsapplogo.png" class="social-side">
+            <img src="./images/youtube.png" class="social-side">
+        </aside>
+
+        <div class="content-box">
+                <section class="hero-section">
+                    <div class="hero-content">
+                        <h1 class="hero-title">EXPLORE YOUR<br>NEXT ADVENTURE</h1>
+                        <p class="hero-description">
+                            The <strong><i>Trek Sphere</i></strong> platform helps travelers explore handpicked travel suggestions through an interactive and seamless interface. It allows you to search for mountains, beaches, historical places, or specific countries to view hidden gems along with vibrant images and detailed insights. Trek Sphere dynamically curates recommendations to provide a simple, efficient, and inspiring way to plan your next great journey.
+                        </p>
+                        <a href="#" class="cta-button">Explore Now</a>
+                    </div>
+                </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

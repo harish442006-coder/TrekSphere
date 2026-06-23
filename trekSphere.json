@@ -1,0 +1,208 @@
+{
+    "beaches": [
+        {
+            "name": "Hyams Beach, Australia",
+            "imgsrc": "./images/beaches/hyams-beach-dawn.jpg",
+            "description": "Famous for having some of the whitest sand in the world, especially breathtaking at dawn. This serene beach offers crystal-clear turquoise waters and a peaceful escape surrounded by natural bushland.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "La Concha, San Sebastián",
+            "imgsrc": "./images/beaches/la-concha-san-sebastian.jpg",
+            "description": "One of Europe's most beautiful urban beaches, known for its iconic crescent-shaped bay. It features calm waters perfect for swimming and is framed by stunning city architecture and green hills.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Lanikai Beach, Hawaii",
+            "imgsrc": "./images/beaches/lanikai-beach-hawaii.jpg",
+            "description": "A postcard-perfect beach featuring powdery white sand and calm, glowing turquoise waters. Its name means \"heavenly sea,\" and it offers a spectacular view of the famous twin Mokulua Islands.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Manuel Antonio Beach, Costa Rica",
+            "imgsrc": "./images/beaches/manuel-antonio-beach.jpg",
+            "description": "A stunning coastal gem located inside a lush national park where the rainforest directly meets the ocean. It is famous for its rich wildlife, white sands, and excellent hiking trails.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Pink Beach, Komodo",
+            "imgsrc": "./images/beaches/pink-beach-komodo.jpg",
+            "description": "A rare and magical wonder known for its striking pink-tinted sand created by microscopic marine organisms. It features vibrant coral reefs that are perfect for snorkeling and diving.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Twilight Beach, Esperance",
+            "imgsrc": "./images/beaches/twilight-beach-esperance.jpg",
+            "description": "Famous for its dramatic rounded granite boulders rising out of the shallow, crystal-clear blue ocean. It is a stunning Australian beach ideal for safe swimming and spectacular coastal photography.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Yyteri Beach, Finland",
+            "imgsrc": "./images/beaches/yyteri-beach-bar.jpg",
+            "description": "One of the longest and most unique beaches in the Nordic region, famous for its massive, rolling sand dunes. It is a popular destination for windsurfing, relaxation, and exploring beautiful Nordic nature.",
+            "searchKeyword": ""
+        }
+    ],
+    "countries": [
+        {
+            "name": "Greece",
+            "imgsrc": "./images/countries/greece.jpg",
+            "description": "A Mediterranean paradise famous for its ancient history, iconic white-and-blue architecture, and stunning islands like Santorini and Mykonos.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "India",
+            "imgsrc": "./images/countries/india.jpg",
+            "description": "A land of incredible diversity, vibrant cultures, and rich heritage, featuring landmarks like the Taj Mahal, scenic beaches, and majestic mountains.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Norway",
+            "imgsrc": "./images/countries/norway.webp",
+            "description": "A Scandinavian wonderland known for its breathtaking deep fjords, towering mountains, and the magical dance of the Northern Lights.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Kenya",
+            "imgsrc": "./images/countries/kenya.jpg",
+            "description": "An iconic East African destination world-renowned for its thrilling wildlife safaris, the Great Migration, and stunning savannah landscapes.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Portugal",
+            "imgsrc": "./images/countries/Portugal.jpg",
+            "description": "A coastal European gem featuring rich maritime history, beautiful golden beaches in the Algarve, and charming, cobblestone streets in Lisbon.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "South Africa",
+            "imgsrc": "./images/countries/south-africa.jpg",
+            "description": "A diverse nation offering a perfect blend of dramatic coastlines, vibrant cities like Cape Town, and world-class wildlife reserves.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Turkey",
+            "imgsrc": "./images/countries/turkey.jpg",
+            "description": "A fascinating bridge between Europe and Asia, famous for its historic architectural marvels, bustling bazaars, and unique landscapes like Cappadocia.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Vietnam",
+            "imgsrc": "./images/countries/vietnam.jpg",
+            "description": "A Southeast Asian country known for its bustling cities, breathtaking natural beauty like Ha Long Bay, and a deeply rich culinary heritage.",
+            "searchKeyword": ""
+        }
+    ],
+    "temples": [
+        {
+            "name": "Kek Lok Si Temple, Malaysia",
+            "imgsrc": "./images/temples/Kek-lok-si-Temple-Malaysia.avif",
+            "description": "One of Southeast Asia's largest Buddhist temples, famous for its magnificent seven-story pagoda and thousands of beautiful Buddha statues and lanterns.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Man Mo Temple, Hong Kong",
+            "imgsrc": "./images/temples/Man -Mo-Temple-HongKong.avif",
+            "description": "A historic and atmospheric temple dedicated to the Gods of Literature and War, known for its heavy incense smoke and large hanging spiral coils.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Paro Taktsang, Bhutan",
+            "imgsrc": "./images/temples/Paro-taktsang-paroValley-temple-Bhutan.avif",
+            "description": "Also known as the 'Tiger’s Nest,' this breathtaking Buddhist monastery clings dramatically to a steep cliff side high above the scenic Paro Valley.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Ranakpur Jain Temple, India",
+            "imgsrc": "./images/temples/ranakpur-jain-temple-India.avif",
+            "description": "An architectural marvel famous for its intricate marble carvings and over 1,400 uniquely designed pillars, nestled beautifully in the Aravali hills.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Seiganto-ji Temple, Japan",
+            "imgsrc": "./images/temples/Seiganto-ji-Nachikatsuura-temple-japan.avif",
+            "description": "A scenic Buddhist temple in Nachikatsuura, world-renowned for its iconic three-story red pagoda standing beautifully in front of the majestic Nachi Waterfall.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Temple of Heaven, China",
+            "imgsrc": "./images/temples/temple-of-heaven-beijing-China.avif",
+            "description": "A magnificent royal complex in Beijing where emperors prayed for good harvests, featuring striking circular architecture and deep cultural symbolism.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Temple of Hephaestus, Greece",
+            "imgsrc": "./images/temples/Temple-of-Hephaestus-Athens-Greece.avif",
+            "description": "One of the world's most well-preserved ancient Greek temples in Athens, dedicated to the god of craftsmanship and classical architecture.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Wat Rong Khun, Thailand",
+            "imgsrc": "./images/temples/wat-rong-khun-temple-chiang-rai-royalty-Thailand.avif",
+            "description": "Universally known as the 'White Temple' in Chiang Rai, it is a uniquely modern art exhibit styled as a Buddhist temple with stunning, detailed white structures.",
+            "searchKeyword": ""
+        }
+    ],
+    "monuments": [
+        {
+            "name": "Taj Mahal, India",
+            "imgsrc": "./images/monuments/taj mahal.webp",
+            "description": "The iconic marble mausoleum in Agra built by Emperor Shah Jahan, renowned as one of the world’s great monuments to love.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Parthenon, Greece",
+            "imgsrc": "./images/monuments/Parthenon.webp",
+            "description": "The ancient temple on the Athenian Acropolis, a masterpiece of classical Greek architecture and cultural heritage.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Hagia Sophia, Turkey",
+            "imgsrc": "./images/monuments/Hagia Sophia.webp",
+            "description": "A monumental architectural icon in Istanbul, famous for its massive dome and layered history as church, mosque, and museum.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Belém Tower, Portugal",
+            "imgsrc": "./images/monuments/belemtower.webp",
+            "description": "A historic river fortress in Lisbon, celebrated for its ornate Manueline details and maritime heritage.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Vietnam War Memorial, Vietnam",
+            "imgsrc": "./images/monuments/VietnamWarMemorial.jpg",
+            "description": "A commemorative monument honoring those affected by conflict, set against Vietnam’s lush landscapes.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Voortrekker Monument, South Africa",
+            "imgsrc": "./images/monuments/Voortrekker Monument.jpg",
+            "description": "A grand heritage monument in Pretoria dedicated to the pioneering Voortrekkers and their role in South African history.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Viking Ship Monument, Norway",
+            "imgsrc": "./images/monuments/Viking Ship Monument, Norway.webp",
+            "description": "A monument inspired by Norway’s Viking heritage, celebrating the nation’s ancient maritime explorers.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Great Wall of China, China",
+            "imgsrc": "./images/monuments/Great Wall of China.jpg",
+            "description": "One of the world’s most famous monuments, a vast fortification that winds across northern China.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Historic Cliff Pagoda, Japan",
+            "imgsrc": "./images/monuments/Historic Cliff Pagoda, Japan.jpg",
+            "description": "A dramatic cliffside monument with a towering pagoda, reflecting Japan’s rich spiritual and cultural heritage.",
+            "searchKeyword": ""
+        },
+        {
+            "name": "Golden Lantern Monument, Malaysia",
+            "imgsrc": "./images/monuments/Golden Lantern Monument, Malaysia.jpg",
+            "description": "A monumental pagoda complex known for its ornate towers, lanterns, and vibrant religious architecture.",
+            "searchKeyword": ""
+        }
+    ]
+}

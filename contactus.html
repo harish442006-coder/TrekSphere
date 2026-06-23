@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <style>
+        *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+        }
+        body{
+            background-image: url(./images/backgroundImage.jpg);
+            height:100vh;
+            width:100vw;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgb(168, 213, 213);
+            overflow-x: hidden;
+        }
+        .nav-container{
+            width:100%;
+            display:flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            padding:1.325rem;
+            background-color: rgb(59, 42, 96);
+        }
+        .logo-container{
+            display: flex;
+        }
+        #website-name{
+            font-family:cursive;
+            font-size: 2.5rem;
+            color:rgb(255, 255, 255);
+        }
+        #logo{
+            height:3.5rem;
+        }
+        .nav-bar{
+            background-color: #e2e3e5;
+            margin-top:1.1rem;
+            display: flex;
+            padding:0.5rem 0.8rem;
+            border-radius: 1.3rem;
+            gap:2rem;
+            font-size:1.4rem;
+        }
+        .nav-bar a{
+            text-decoration: none;
+            color:rgb(66, 66, 66);
+            text-shadow:0px 0px 20px rgb(255, 255, 255);
+            font-weight: 500;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .nav-bar a:hover{
+            color:rgb(0, 31, 233);
+        }
+        .main-container{
+            width: 100%;
+            height:87%;
+            display: flex;
+        }
+        .side-bar{
+            width:10%;
+            height:100%;
+            display: flex;
+            padding-left: 1.5rem;
+            flex-direction: column;
+            gap:1rem;
+            justify-content: center;
+            animation:leftSlide 1.75s ease;
+        }
+        @keyframes leftSlide {
+            0%{
+                opacity:0;
+                transform:translateX(-100%)
+            }
+            100%{
+                opacity:1;
+                transform: translateX(0%);
+            }
+        }
+        .social-side{
+            width:3rem;
+            height:3rem;
+            object-fit: cover;
+        }
+        .content-box{
+            width: 90%;
+            display:flex;
+            padding: 1.2rem;
+        }
+        #contact-description{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 82.5%;
+            padding-left: 1rem;
+            gap:1rem;
+            width:50%;
+        }
+        #contact-description h1{
+            color: #e2e3e5;
+            font-size: 6rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation:downSlide 2.5s ease;
+        }
+        #contact-description p{
+            color: #e6e5e5;
+            font-size: 1.5rem;
+            text-align: start;
+            font-family:Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            animation:upSlide 3s ease;
+        }
+        .contact-form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:50%;
+            height: 100%;
+            padding:1.5rem;
+        }
+        .contact-form form{
+            padding:1rem;
+            box-shadow:inset 0px 0px 20px rgb(74, 74, 74);
+            border-radius: 1.3rem;
+            background-color: rgba(255, 255, 255, 0.253);
+            backdrop-filter: blur(10px);
+            height:90%;
+            width:80%;
+            display: flex;
+            flex-direction: column;
+            border:2px solid rgb(90, 90, 95);
+            color:rgb(46, 46, 46);
+            animation:upDown 2s linear infinite ;
+        }
+        @keyframes upDown {
+            0%{
+                transform: translateY(0px);
+            }
+            25%{
+                transform: translateY(-8px);
+            }
+            50%{
+                transform: translateY(-17px);
+            }
+            75%{
+                transform: translateY(-8px);
+            }
+            100%{
+                transform: translateY(0px);
+            }
+            
+        }
+        .contact-form form:hover{
+            animation: none;
+        }
+        .contact-form label{
+            font-size: 1.75rem;
+            color: rgb(36, 36, 56);
+            padding:0.4rem 0;
+            font-weight: 600;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .contact-form input{
+            background-color:whitesmoke;
+        }
+        #message{
+            height: 30%;
+            width: 100%;
+            resize:none;
+            padding-top: 0.5rem;
+            padding-left:0.6rem;
+            margin-bottom:0.8rem;
+            font-size: 1.3rem;
+            border-radius: 0.5rem;
+            outline: none;
+            border-style: none;
+            margin-bottom: 1rem;
+            background-color:whitesmoke;
+        }
+        #name{
+            height:8%;
+            width:100%;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding-left:0.6rem;
+            margin-bottom:0.8rem;
+            font-size: 1.3rem;
+            border-radius: 0.5rem;
+            outline: none;
+            border-style: none;
+        }
+        #email{
+            height:8%;
+            width:100%;
+            padding-left:0.6rem;
+            margin-bottom:0.8rem;
+            font-size: 1.3rem;
+            border-radius: 0.5rem;
+            outline: none;
+            border-style: none;
+        }
+        #submit-btn{
+            width:6rem;
+            height:2.75rem;
+            font-size: 1.25rem;
+            background-color: rgb(120, 120, 255);
+            color:white;
+            border-radius: 0.5rem;
+        }
+        #submit-btn:hover{
+            background-color: rgb(52, 52, 255);
+        }
+        @keyframes upSlide {
+            0%{
+                opacity:0;
+                transform:translateY(400%)
+            }
+            100%{
+                opacity:1;
+                transform: translateY(0%);
+            }
+        }
+        @keyframes downSlide {
+            0%{
+                opacity:0;
+                transform:translateY(-400%)
+            }
+            100%{
+                opacity:1;
+                transform: translateY(0%);
+            }
+        }
+        @media screen and (max-width: 1000px) {
+            .nav-bar {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                width: 100%;
+                margin-top: 0.75rem;
+            }
+            .main-container {
+                flex-direction: column;
+                height: auto;
+                gap: 1rem;
+            }
+            .side-bar {
+                width: 100%;
+                flex-direction: row;
+                justify-content: center;
+                padding: 0.75rem 0;
+                height: auto;
+            }
+            .content-box {
+                width: 100%;
+                flex-direction: column;
+                padding: 1rem;
+                gap: 1.5rem;
+            }
+            #contact-description {
+                width: 100%;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .contact-form {
+                width: 100%;
+                padding: 0;
+            }
+            .contact-form form {
+                width: 100%;
+                min-height: auto;
+                padding: 1rem;
+            }
+            #contact-description h1 {
+                font-size: 4rem;
+                text-align: center;
+            }
+            #contact-description p {
+                font-size: 1.3rem;
+                text-align: center;
+            }
+        }
+        @media screen and (max-width: 650px) {
+            .nav-container {
+                align-items: flex-start;
+            }
+            .logo-container {
+                width: 100%;
+                justify-content: space-between;
+            }
+            #website-name {
+                font-size: 2rem;
+            }
+            .nav-bar {
+                align-items: stretch;
+            }
+            .social-side {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+            #contact-description h1 {
+                font-size: 3rem;
+            }
+            #contact-description p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+            }
+            .contact-form form {
+                padding: 0.8rem;
+            }
+            #submit-btn {
+                width: 100%;
+                height: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo-container">
+            <img src="./images/logo1.png" loading="lazy" id="logo">
+            <h1 id="website-name">TrekSphere</h1>
+        </div>
+        <div class="nav-bar">
+            <div class="home">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="about">
+                <a href="aboutus.html">About Us</a>
+            </div>
+            <div class="contact">
+                <a href="contactus.html">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <aside class="side-bar">
+            <img src="./images/twitter.png" class="social-side">
+            <img src="./images/insta.png" class="social-side">
+            <img src="./images/whatsapplogo.png" class="social-side">
+            <img src="./images/youtube.png" class="social-side">
+        </aside>
+
+        <div class="content-box">
+            <div id="contact-description">
+                <h1>Contact Us</h1>
+                <p>TrekSphere provides interactive support to its customers. Feel free to ask . </p>
+            </div>
+            <div class="contact-form">
+                <form >
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Enter your name" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" >Type your query</textarea>
+                    <input type="submit" id="submit-btn" >
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
